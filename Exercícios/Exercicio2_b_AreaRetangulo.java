@@ -14,6 +14,17 @@ public class Exercicio2_b_AreaRetangulo {
 		base = teclado.nextFloat();
 		System.out.println("----------------");
 
+		
+		System.out.print(" Digite o valor da Altura: ");
+		altura = teclado.nextFloat();
+		System.out.println("----------------");
+
+		area = base * altura;
+
+		
+		System.out.println(" A area do retangulo eh:  "+area);
+		System.out.println("----------------");
+
 
 
 	}
